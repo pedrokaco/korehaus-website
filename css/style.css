@@ -752,7 +752,8 @@ h3 { font-size: clamp(1.5rem, 3vw, 1.75rem); }
 
 .cta p {
     color: rgba(255,255,255,0.7);
-    font-size: clamp(1.8rem, 3.6vw, 2.475rem);
+    font-size: clamp(2.2rem, 4.5vw, 3rem);
+    font-weight: 600;
     margin-bottom: 1.5rem;
     font-family: 'Cormorant Garamond', Georgia, serif;
 }
