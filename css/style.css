@@ -949,8 +949,8 @@ h3 { font-size: clamp(1.5rem, 3vw, 1.75rem); }
     right: 24px;
     width: 60px;
     height: 60px;
-    background-color: var(--color-cream);
-    color: var(--color-primary);
+    background-color: var(--color-accent);
+    color: var(--color-white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1043,6 +1043,14 @@ h3 { font-size: clamp(1.5rem, 3vw, 1.75rem); }
     .sobre-features {
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    /* Alinhamento à esquerda no mobile para Unidades e Preços */
+    .unidades .section-label,
+    .unidades h2,
+    .precos .section-label,
+    .precos h2 {
+        text-align: left;
     }
 
     .unidades-grid {
