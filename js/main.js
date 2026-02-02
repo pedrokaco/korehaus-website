@@ -212,5 +212,14 @@ document.addEventListener('DOMContentLoaded', function() {
         yearEl.innerHTML = yearEl.innerHTML.replace('2024', new Date().getFullYear());
     }
 
+    // Google Ads conversion tracking for WhatsApp clicks
+    document.querySelectorAll('a[href*="whatsapp"], a[href*="wa.me"], .whatsapp-float, .contato-whatsapp').forEach(link => {
+        link.addEventListener('click', function() {
+            if (typeof gtag === 'function') {
+                gtag('event', 'conversion', {'send_to': 'AW-16728206793/ra4FCOKa9OkZEMnb0Kg-'});
+            }
+        });
+    });
+
     console.log('Korehaus website loaded successfully');
 });
