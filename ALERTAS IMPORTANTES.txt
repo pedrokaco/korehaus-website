@@ -1,0 +1,59 @@
+============================================================
+            ALERTAS IMPORTANTES - KOREHAUS
+============================================================
+
+Este arquivo contém informações críticas sobre a infraestrutura
+dos projetos Korehaus. LEIA COM ATENÇÃO.
+
+------------------------------------------------------------
+PROJETO 1: WEBSITE INSTITUCIONAL
+------------------------------------------------------------
+URL: https://korehaus.com.br/
+Repositório: Website Korehaus publico
+Vercel Project: korehaus-website
+Função: Site institucional com informações sobre o estúdio,
+        unidades, preços e galeria de fotos.
+
+------------------------------------------------------------
+PROJETO 2: SITE DE AGENDAMENTO
+------------------------------------------------------------
+URL: https://agendamento.korehaus.com.br/
+Repositório: SITE AGENDAMENTO
+Vercel Project: korehaus-agendamento
+Função: Sistema de agendamento de aulas para alunos e
+        professores. SISTEMA EM PRODUÇÃO HÁ 2+ MESES.
+
+============================================================
+                    REGRAS CRÍTICAS
+============================================================
+
+1. NUNCA MEXER NO SITE DE AGENDAMENTO NESTE CHAT
+   - O site de agendamento tem seu próprio chat exclusivo
+   - Qualquer alteração no agendamento deve ser feita
+     no chat dedicado ao projeto
+   - O sistema está funcionando perfeitamente há 2 meses
+
+2. OS PROJETOS SÃO INDEPENDENTES
+   - Alterações no website NÃO devem afetar o agendamento
+   - O subdomínio agendamento.korehaus.com.br é separado
+   - Ambos estão no Vercel mas são projetos distintos
+
+3. CONFIGURAÇÃO DNS (Hostinger)
+   - korehaus.com.br (A record) -> 76.76.21.21 (Website)
+   - agendamento.korehaus.com.br (A record) -> 76.76.21.21
+   - Os dois apontam para Vercel mas para projetos diferentes
+
+4. EM CASO DE DÚVIDA
+   - NÃO execute comandos que possam afetar korehaus-agendamento
+   - Sempre verifique qual projeto está sendo alterado
+   - Na dúvida, pergunte antes de executar
+
+============================================================
+                    HISTÓRICO
+============================================================
+
+Data de criação deste arquivo: 24/01/2026
+Motivo: Garantir que o website institucional não interfira
+        no sistema de agendamento em produção.
+
+============================================================
