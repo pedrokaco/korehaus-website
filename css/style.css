@@ -516,6 +516,27 @@ h3 { font-size: clamp(1.5rem, 3vw, 1.75rem); }
     margin-bottom: 1.5rem;
 }
 
+.unidade-aparelhos {
+    padding: 1rem 0;
+    border-top: 1px solid var(--color-gray-light);
+}
+
+.unidade-aparelhos h4 {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-gray);
+    margin-bottom: 0.5rem;
+}
+
+.unidade-aparelhos p {
+    font-size: 0.9375rem;
+    color: var(--color-primary);
+    margin: 0;
+}
+
 .unidade-horarios {
     padding: 1rem 0;
     border-top: 1px solid var(--color-gray-light);
